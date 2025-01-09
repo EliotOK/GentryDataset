@@ -1,5 +1,5 @@
 # GentryDataset
-An organized version for The Alwyn H. Gentry Forest Transect Data Set
+An organized version for The Alwyn H. Gentry Forest Transect Data Set  
 一个整理好的gentry森林群落调查数据集
 
 ## 起因 Motivation
@@ -12,3 +12,4 @@ An organized version for The Alwyn H. Gentry Forest Transect Data Set
 - 一个用于处理从密苏里植物园官网下载的gentry原始数据的R脚本文件：gentry.R
 - 一个压缩包，包含了gentry原始数据：gentry.zip
 - 一个对扫描的站点坐标进行了OCR的xlsx文件，记录了各站点所属国家、完整名称、缩写、经纬度、降水、海拔等数据：gentry_loc.xlsx
+- 一个菌根类型数据集，包含了genus(属)和菌根类型两列，来自FungalRoot数据库：fungus.type.csv
