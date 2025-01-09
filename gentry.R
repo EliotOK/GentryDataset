@@ -56,6 +56,7 @@ for(i in zones){
     match_col <- grep("N.*IND", names(d), value = TRUE, ignore.case = T)
 
     # BA means Basal Area
+    # 不想用BA可以在function后面直到return为止进行修改
     d$BA <- apply(d, 1, function(row) {
       diameters <- as.numeric(row[which(names(d)==match_col)+1:length(row)])
       diameters <- diameters[!is.na(diameters)]
@@ -72,10 +73,10 @@ for(i in zones){
     colnames(d) <- gsub("(?i)genus", "Genus", colnames(d), perl = TRUE)
     d$Genus <- str_to_title(d$Genus)
 
-    # 基于genus匹配菌根类型
+    # 基于genus匹配菌根类型，如果不做菌根方面分析可以省略
     d.matched <- merge.data.frame(d, fungalType, by = 'Genus', all=F)
 
-    # 计算总基面积和相对基面积/优势度
+    # 计算总基面积和相对基面积/优势度，不想用BA可以把这里改掉
     # calculate relative dominance
     ba.all <- sum(d.matched$BA)
     ba.am <- sum(subset(d.matched, Mycorrhizal.type == 'AM')$BA)/ba.all
