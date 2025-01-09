@@ -1,5 +1,5 @@
 # GentryDataset
-<br>一个整理好的gentry森林群落调查数据集<\br>
+一个整理好的gentry森林群落调查数据集
 
 <br>An organized version for The Alwyn H. Gentry Forest Transect Data Set<\br>
 
