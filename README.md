@@ -31,4 +31,16 @@ An OCR-processed XLSX file (gentry_loc.xlsx) documenting site-level metadata, in
 
 一个菌根类型数据集，包含了 genus(属) 和菌根类型两列，来自 FungalRoot 数据库：fungus.type.csv  
 
-A dataset of mycorrhizal types (fungus.type.csv) with two columns: genus and mycorrhizal type, sourced from the FungalRoot database.  
+A dataset of mycorrhizal types (fungus.type.csv) with two columns: genus and mycorrhizal type, sourced from the FungalRoot database.
+
+## 关于原始数据
+#1 gentry_coordinates.pdf
+这是一个对站点经纬度及其他信息记录的扫描件，看得出来很有些年头了。我利用gpt进行了ocr工作并进行了一些校对，目前可以直接读取gentry_loc.xlsx获取其中的数据。它与其他数据的匹配主要基于Abbrev这一列。<br>
+
+#2 分配于6个文件夹中的共225个xls表格
+每个表格是对一个站点的记录。<br>
+第1~4行为科属种的记录，其中M1等记录表示未定种/定属；<br>
+之后的voucher1~vouchern是对标本的记录，通常可以忽略；<br>
+LIANA（大小写在不同表格中有差异）表示该植物是否为藤本；<br>
+N.IND/N(IND)/N(Ind)等可以模糊匹配至NIND的列表示该物种的个体数；<br>
+其后的STEMDBH表示记录的胸径，其列数由NIND列决定。
