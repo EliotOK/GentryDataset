@@ -34,10 +34,10 @@ An OCR-processed XLSX file (gentry_loc.xlsx) documenting site-level metadata, in
 A dataset of mycorrhizal types (fungus.type.csv) with two columns: genus and mycorrhizal type, sourced from the FungalRoot database.
 
 ## 关于原始数据
-#1 gentry_coordinates.pdf
+1. gentry_coordinates.pdf
 这是一个对站点经纬度及其他信息记录的扫描件，看得出来很有些年头了。我利用gpt进行了ocr工作并进行了一些校对，目前可以直接读取gentry_loc.xlsx获取其中的数据。它与其他数据的匹配主要基于Abbrev这一列。<br>
 
-#2 分配于6个文件夹中的共225个xls表格
+2. 分配于6个文件夹中的共225个xls表格
 每个表格是对一个站点的记录。<br>
 第1~4行为科属种的记录，其中M1等记录表示未定种/定属；<br>
 之后的voucher1~vouchern是对标本的记录，通常可以忽略；<br>
