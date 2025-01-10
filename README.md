@@ -39,8 +39,8 @@ A dataset of mycorrhizal types (fungus.type.csv) with two columns: genus and myc
 
 2. 分配于6个文件夹中的共225个xls表格
 每个表格是对一个站点的记录。<br>
-第1~4行为科属种的记录，其中M1等记录表示未定种/定属；<br>
-之后的voucher1~vouchern是对标本的记录，通常可以忽略；<br>
+第1\~4行为科属种的记录，其中M1等记录表示未定种/定属；<br>
+之后的voucher1\~vouchern是对标本的记录，通常可以忽略；<br>
 LIANA（大小写在不同表格中有差异）表示该植物是否为藤本；<br>
 N.IND/N(IND)/N(Ind)等可以模糊匹配至NIND的列表示该物种的个体数；<br>
 其后的STEMDBH表示记录的胸径，其列数由NIND列决定。
