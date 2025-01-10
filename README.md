@@ -45,7 +45,6 @@ A dataset of mycorrhizal types (fungus.type.csv) with two columns: genus and myc
 LIANA（大小写在不同表格中有差异）表示该植物是否为藤本；<br>
 N.IND/N(IND)/N(Ind)等可以模糊匹配至NIND的列表示该物种的个体数；<br>
 其后的STEMDBH表示记录的胸径，其列数由NIND列决定。<br>
-
 There are 225 xls spreadsheets distributed across 6 folders, each documenting a station. The first to fourth rows record the family, genus, and species, where "M1" and similar notations indicate undetermined species or genera.<br>
 The records following "voucher1" to "vouchern" pertain to specimens and can generally be disregarded. The term "LIANA" (with variations in capitalization across different spreadsheets) signifies whether the plant is a liana.<br>
 Entries such as "N.IND", "N(IND)", or "N(Ind)" can be loosely matched to the "NIND" list, which represents the number of individuals of the species.<br>
