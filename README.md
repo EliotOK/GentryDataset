@@ -10,7 +10,7 @@ Quite simple. While trying to reproduce the results of Lu & Hedin (2019)’s NEE
 ## 内容 Content
 一个用于复现 Lu & Hedin (2019) 中 Fig.1 结果的 csv：gentry.csv 
 
-*共四列，第一列为站点缩写名 Abbrev，后四列为计算的相对比基面积，计算基于数据集中的 DBH* 
+共四列，第一列为站点缩写名 Abbrev，后四列为计算的相对比基面积，计算基于数据集中的 DBH
 如果想计算重要值/个体数比值等指标请在 R 脚本文件中进行修改  
 
 A CSV file (gentry.csv) for reproducing Fig.1 in Lu & Hedin (2019):
