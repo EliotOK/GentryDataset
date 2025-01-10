@@ -33,7 +33,7 @@ An OCR-processed XLSX file (gentry_loc.xlsx) documenting site-level metadata, in
 
 A dataset of mycorrhizal types (fungus.type.csv) with two columns: genus and mycorrhizal type, sourced from the FungalRoot database.
 
-## 关于原始数据
+## 关于原始数据 About the Original Data
 1. gentry_coordinates.pdf
 这是一个对站点经纬度及其他信息记录的扫描件，看得出来很有些年头了。我利用gpt进行了ocr工作并进行了一些校对，目前可以直接读取gentry_loc.xlsx获取其中的数据。它与其他数据的匹配主要基于Abbrev这一列。<br>
 "Gentry_coordinates.pdf" is a scanned document that records the latitude and longitude of stations along with other information. It appears to be quite old. I have used GPT to perform OCR on it and carried out some proofreading. Now, the data can be directly accessed through "gentry_loc.xlsx". The matching with other data is mainly based on the "Abbrev" column.<br>
