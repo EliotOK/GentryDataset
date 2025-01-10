@@ -36,6 +36,7 @@ A dataset of mycorrhizal types (fungus.type.csv) with two columns: genus and myc
 ## 关于原始数据
 1. gentry_coordinates.pdf
 这是一个对站点经纬度及其他信息记录的扫描件，看得出来很有些年头了。我利用gpt进行了ocr工作并进行了一些校对，目前可以直接读取gentry_loc.xlsx获取其中的数据。它与其他数据的匹配主要基于Abbrev这一列。<br>
+"Gentry_coordinates.pdf" is a scanned document that records the latitude and longitude of stations along with other information. It appears to be quite old. I have used GPT to perform OCR on it and carried out some proofreading. Now, the data can be directly accessed through "gentry_loc.xlsx". The matching with other data is mainly based on the "Abbrev" column.<br>
 
 2. 分配于6个文件夹中的共225个xls表格
 每个表格是对一个站点的记录。<br>
@@ -43,4 +44,10 @@ A dataset of mycorrhizal types (fungus.type.csv) with two columns: genus and myc
 之后的voucher1\~vouchern是对标本的记录，通常可以忽略；<br>
 LIANA（大小写在不同表格中有差异）表示该植物是否为藤本；<br>
 N.IND/N(IND)/N(Ind)等可以模糊匹配至NIND的列表示该物种的个体数；<br>
-其后的STEMDBH表示记录的胸径，其列数由NIND列决定。
+其后的STEMDBH表示记录的胸径，其列数由NIND列决定。<br>
+
+There are 225 xls spreadsheets distributed across 6 folders, each documenting a station. The first to fourth rows record the family, genus, and species, where "M1" and similar notations indicate undetermined species or genera.<br>
+The records following "voucher1" to "vouchern" pertain to specimens and can generally be disregarded. The term "LIANA" (with variations in capitalization across different spreadsheets) signifies whether the plant is a liana.<br>
+Entries such as "N.IND", "N(IND)", or "N(Ind)" can be loosely matched to the "NIND" list, which represents the number of individuals of the species.<br>
+The subsequent "STEMDBH" column records the diameter at breast height, and the number of its columns is determined by the "NIND" column.<br>
+
